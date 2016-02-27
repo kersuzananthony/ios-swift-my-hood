@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		DCBA16FF1BE4534D00115CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA16FE1BE4534D00115CB2 /* AppDelegate.swift */; };
-		DCBA17011BE4534D00115CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17001BE4534D00115CB2 /* ViewController.swift */; };
 		DCBA17041BE4534D00115CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBA17021BE4534D00115CB2 /* Main.storyboard */; };
 		DCBA17061BE4534D00115CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBA17051BE4534D00115CB2 /* Assets.xcassets */; };
 		DCBA17091BE4534D00115CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBA17071BE4534D00115CB2 /* LaunchScreen.storyboard */; };
+		DCBA17111BE45A8100115CB2 /* ListPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17101BE45A8100115CB2 /* ListPostVC.swift */; };
+		DCBA17131BE45B3200115CB2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17121BE45B3200115CB2 /* PostCell.swift */; };
+		DCBA17151BE45EEB00115CB2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17141BE45EEB00115CB2 /* Post.swift */; };
+		DCBA171C1BE49C1500115CB2 /* DetailPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA171B1BE49C1500115CB2 /* DetailPostVC.swift */; };
+		DCBA171E1BE49CD800115CB2 /* NewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA171D1BE49CD800115CB2 /* NewPostVC.swift */; };
+		DCBA17201BE4A54E00115CB2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA171F1BE4A54E00115CB2 /* DataService.swift */; };
+		DCBA17221BE4B05500115CB2 /* PostImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA17211BE4B05500115CB2 /* PostImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DCBA16FB1BE4534D00115CB2 /* mon voisinage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mon voisinage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBA16FE1BE4534D00115CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCBA17001BE4534D00115CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCBA17031BE4534D00115CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCBA17051BE4534D00115CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBA17081BE4534D00115CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBA170A1BE4534D00115CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBA17101BE45A8100115CB2 /* ListPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPostVC.swift; sourceTree = "<group>"; };
+		DCBA17121BE45B3200115CB2 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DCBA17141BE45EEB00115CB2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DCBA171B1BE49C1500115CB2 /* DetailPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPostVC.swift; sourceTree = "<group>"; };
+		DCBA171D1BE49CD800115CB2 /* NewPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostVC.swift; sourceTree = "<group>"; };
+		DCBA171F1BE4A54E00115CB2 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DCBA17211BE4B05500115CB2 /* PostImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,44 @@
 		DCBA16FD1BE4534D00115CB2 /* mon voisinage */ = {
 			isa = PBXGroup;
 			children = (
+				DCBA17181BE49BE500115CB2 /* controller */,
+				DCBA17171BE49BD600115CB2 /* view */,
+				DCBA17161BE49BCE00115CB2 /* model */,
 				DCBA16FE1BE4534D00115CB2 /* AppDelegate.swift */,
-				DCBA17001BE4534D00115CB2 /* ViewController.swift */,
 				DCBA17021BE4534D00115CB2 /* Main.storyboard */,
 				DCBA17051BE4534D00115CB2 /* Assets.xcassets */,
 				DCBA17071BE4534D00115CB2 /* LaunchScreen.storyboard */,
 				DCBA170A1BE4534D00115CB2 /* Info.plist */,
+				DCBA171F1BE4A54E00115CB2 /* DataService.swift */,
 			);
 			path = "mon voisinage";
+			sourceTree = "<group>";
+		};
+		DCBA17161BE49BCE00115CB2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA17141BE45EEB00115CB2 /* Post.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		DCBA17171BE49BD600115CB2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA17121BE45B3200115CB2 /* PostCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		DCBA17181BE49BE500115CB2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA17101BE45A8100115CB2 /* ListPostVC.swift */,
+				DCBA171B1BE49C1500115CB2 /* DetailPostVC.swift */,
+				DCBA171D1BE49CD800115CB2 /* NewPostVC.swift */,
+				DCBA17211BE4B05500115CB2 /* PostImageVC.swift */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBA17011BE4534D00115CB2 /* ViewController.swift in Sources */,
+				DCBA17111BE45A8100115CB2 /* ListPostVC.swift in Sources */,
+				DCBA17201BE4A54E00115CB2 /* DataService.swift in Sources */,
+				DCBA171E1BE49CD800115CB2 /* NewPostVC.swift in Sources */,
+				DCBA17131BE45B3200115CB2 /* PostCell.swift in Sources */,
+				DCBA171C1BE49C1500115CB2 /* DetailPostVC.swift in Sources */,
 				DCBA16FF1BE4534D00115CB2 /* AppDelegate.swift in Sources */,
+				DCBA17221BE4B05500115CB2 /* PostImageVC.swift in Sources */,
+				DCBA17151BE45EEB00115CB2 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
